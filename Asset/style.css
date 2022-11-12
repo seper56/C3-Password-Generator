@@ -7,8 +7,7 @@
 html,
 body,
 .wrapper {
-  display: flex;
-  justify-content: center;
+  
   height: 100%;
   margin: 0;
   padding: 0;
@@ -16,7 +15,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #0d7ff1;
   justify-content: center;
   align-items: center;
   display: flex;
