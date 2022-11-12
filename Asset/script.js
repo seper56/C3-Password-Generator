@@ -42,13 +42,14 @@ var passwordChoice = [];
 
     // generate password
     var passwordGen = "";
-    for (var i = 0; i < characterChoice; i++) {
+        for (var i = 0; i < characterChoice; i++) {
         var genRandom = Math.floor(Math.random() * passwordChoice.length);
         passwordGen = passwordGen + passwordChoice[genRandom];
-    }
+        }
  
     return passwordGen;
 }
+
 
 // Write password to the #password input
 function writePassword() {
