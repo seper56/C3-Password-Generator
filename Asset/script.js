@@ -42,12 +42,16 @@ var passwordChoice = [];
 
     // generate password
     var passwordGen = "";
+    if (passwordChoice.length !== 0){
         for (var i = 0; i < characterChoice; i++) {
         var genRandom = Math.floor(Math.random() * passwordChoice.length);
         passwordGen = passwordGen + passwordChoice[genRandom];
         }
  
     return passwordGen;
+        }
+    alert("Pick at least one,wtf!")
+    return""    
 }
 
 
